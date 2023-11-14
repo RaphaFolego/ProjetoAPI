@@ -57,7 +57,7 @@ def create_user(pessoa: PessoaBase, session: Session=Depends(get_session)):
         session.add(new_pessoa)
         session.commit()
     
-    except IntegrityError:
+    except IntegrityError as error:
         return JSONResponse(status_code=400, content={"msg" : "CPF Duplicado"})
 
 """Definindo o comando de exclusão"""
