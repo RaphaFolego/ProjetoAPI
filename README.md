@@ -1,9 +1,6 @@
 # ProjetoAPI
-Desafio parte do processo seletivo para vaga de Estágio no banco Itaú
 
 <h1>API para cadastro e manutenção de usuários</h1>
-
-<p>Esse projeto faz parte do processo seletivo para a vaga de estágio do Itaú que consiste no desenvolvimento de uma API para cadastro e manutenção de funcionários</p>
 
 <p>O desafio foi desenvolvido usando o framework FastAPI, do Python</p>
 
