@@ -36,3 +36,4 @@ Desafio parte do processo seletivo para vaga de Estágio no banco Itaú
 <li>fastapi</li>
 <li>uvicorn</li>
 <li>sqlalchemy</li>
+<li>pydantic</li>
