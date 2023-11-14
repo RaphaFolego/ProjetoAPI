@@ -63,22 +63,18 @@ def create_user(pessoa: PessoaBase, session: Session=Depends(get_session)):
 """Definindo o comando de exclusão"""
 @router.delete("/{user_id}")
 def delete_user(user_id: int, session: Session=Depends(get_session)):
-        pessoa = session.get(Pessoa, user_id)
-        session.delete(pessoa)
+    pessoa = session.get(Pessoa, user_id)
+    session.delete(pessoa)
 
-        session.commit()
+    session.commit()
 
 """Definindo o comando de atualização completa (put)"""
 @router.put("/")
-def put_user(pessoa: PessoaBase, session: Session=Depends(get_session)):
-    try:    
-        att_pessoa = session.get(Pessoa, pessoa.id)
-        att_pessoa.nome = pessoa.nome 
-        att_pessoa.data_nasc = pessoa.data_nasc 
-        att_pessoa.endereco = pessoa.endereco 
-        att_pessoa.estado_civil = pessoa.estado_civil 
+def put_user(pessoa: PessoaBase, session: Session=Depends(get_session)):  
+    att_pessoa = session.get(Pessoa, pessoa.id)
+    att_pessoa.nome = pessoa.nome 
+    att_pessoa.data_nasc = pessoa.data_nasc 
+    att_pessoa.endereco = pessoa.endereco 
+    att_pessoa.estado_civil = pessoa.estado_civil 
 
-        session.commit()
-
-    except IntegrityError as error:
-        return JSONResponse(status_code=400, content={"msg" : "CPF Duplicado"})
+    session.commit()
