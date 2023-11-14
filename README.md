@@ -5,6 +5,7 @@
 <p>O desafio foi desenvolvido usando o framework FastAPI, do Python</p>
 <p>O framework escolhido foi o FastAPI por conta da sua agilidade na hora de subir uma API, além do fato de ser um framework mais recente quando comparado com Django e Flask, por exemplo.</p>
 
+<h1>Passos iniciais para o funcionamento da API</h1>
 <p>Para que a API funcione, será necessário ter, no mínimo, a versão 3.10+ do Python instalado, juntamente com o VSCode instalado.</p>
 
 <p>Para verificar qual a versão do Python está instalada no seu computador, basta digitar o comando 'python -V' no terminal</p>
