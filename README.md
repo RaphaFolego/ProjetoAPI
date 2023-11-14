@@ -44,3 +44,12 @@ Desafio parte do processo seletivo para vaga de Estágio no banco Itaú
 <p>Isso irá gerar um link no terminal, basta dar um click+c para entrar no link, e uma página como a abaixo irá abrir no seu navegador.</p>
 
 <p>Ao abrir o navegador, coloque no final do URL "/docs" para acessar as funcionalidades da API, e então, só testar as funcionalidades!</p>
+
+<h1>Métodos do recurso /users</h1>
+<p>O recurso /users possui 4 métodos, sendo eles:</p>
+<li>Get -> Lê a tabela de dados</li>
+<li>Post -> Cria um usuário novo</li>
+<li>Put -> Altera os dados de um usuário já existente</li>
+<li>Delete -> Deleta todos os dados de um usuário</li>
+
+<p>Cada um possui especificações para que eles possam ser executados</p>
