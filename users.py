@@ -63,13 +63,10 @@ def create_user(pessoa: PessoaBase, session: Session=Depends(get_session)):
 """Definindo o comando de exclusão"""
 @router.delete("/{user_id}")
 def delete_user(user_id: int, session: Session=Depends(get_session)):
-    try:
         pessoa = session.get(Pessoa, user_id)
         session.delete(pessoa)
 
         session.commit()
-    except IntegrityError as error:
-        return JSONResponse(status_code=400, content={"msg":"ID Inexistente"})
 
 """Definindo o comando de atualização completa (put)"""
 @router.put("/")
