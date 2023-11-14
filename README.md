@@ -10,7 +10,7 @@ Desafio parte do processo seletivo para vaga de Estágio no banco Itaú
 <p>Para que a API funcione, será necessário ter, no mínimo, a versão 3.10+ do Python instalado, juntamente com o VSCode instalado.</p>
 
 <p>Para verificar qual a versão do Python está instalada no seu computador, basta digitar o comando 'python -V' no terminal</p>
-<link= >
+<link= docs\cmd.png>
 
 <p>Após verificar a versão do python, basta criar uma pasta na área de trabalho, abrir o VSCode e abrir o folder dentro dele.</p>
 <link= >
