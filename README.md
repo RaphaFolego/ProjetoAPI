@@ -51,5 +51,5 @@ Desafio parte do processo seletivo para vaga de Estágio no banco Itaú
 <li>Post -> Cria um usuário novo</li>
 <li>Put -> Altera os dados de um usuário já existente</li>
 <li>Delete -> Deleta todos os dados de um usuário</li>
-
+<br>
 <p>Cada um possui especificações para que eles possam ser executados</p>
