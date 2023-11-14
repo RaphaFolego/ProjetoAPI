@@ -10,15 +10,15 @@ Desafio parte do processo seletivo para vaga de Estágio no banco Itaú
 <p>Para que a API funcione, será necessário ter, no mínimo, a versão 3.10+ do Python instalado, juntamente com o VSCode instalado.</p>
 
 <p>Para verificar qual a versão do Python está instalada no seu computador, basta digitar o comando 'python -V' no terminal</p>
-<link= docs\cmd.png>
+<>
 
 <p>Após verificar a versão do python, basta criar uma pasta na área de trabalho, abrir o VSCode e abrir o folder dentro dele.</p>
-<link= >
+<>
 
 <h1>Criação do ambiente virtual</h1>
 <p>Ao abrir o folder, pressione Ctrl+J para abrir o terminal e criar o ambiente virtual para rodar a API.</p>
 <p>No terminal, digite o comando 'python -m venv nome_do_ambiente'</p>
-<link= >
+<>
 
 <p>Após criar o ambiente virutal, digite no terminal o comando '.\nome_do_ambiente\Scripts' e logo em seguida digite.\Activate.ps1\ (caso esteja no powershell)</p>
 
@@ -37,3 +37,10 @@ Desafio parte do processo seletivo para vaga de Estágio no banco Itaú
 <li>Uvicorn</li>
 <li>SQLAlchemy</li>
 <li>Pydantic</li>
+
+<h1>Executando a API</h1>
+<p>Após a criação do ambiente virtual e da instalação de todas as bibliotecas necessárias, já podemos rodar a aplicação</p>
+<p>Para rodá-la, basta abrir o terminal (Ctrl+J) e digitar o comando "uvicorn main:app"</p>
+<p>Isso irá gerar um link no terminal, basta dar um click+c para entrar no link, e uma página como a abaixo irá abrir no seu navegador.</p>
+
+<p>Ao abrir o navegador, coloque no final do URL "/docs" para acessar as funcionalidades da API, e então, só testar as funcionalidades!</p>
