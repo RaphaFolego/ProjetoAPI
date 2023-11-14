@@ -21,6 +21,7 @@ Desafio parte do processo seletivo para vaga de Estágio no banco Itaú
 <>
 
 <p>Após criar o ambiente virutal, digite no terminal o comando '.\nome_do_ambiente\Scripts' e logo em seguida digite.\Activate.ps1\ (caso esteja no powershell)</p>
+<p>Caso o PowerShell não tenha permissão para acessar a pasta Scripts (por padrão,ele não permite acesso), basta abrir o PowerShell no windows e digitar o comando "Set-ExecutionPolicy Unrestricted", e depois digitar um "S" para confirmar a alteração.</p>
 
 <p>Caso esteja no cmd, basta digitar .\Activate.bat\</p>
 
