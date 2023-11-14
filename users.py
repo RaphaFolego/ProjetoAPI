@@ -35,7 +35,7 @@ class PessoaBase(BaseModel):
 """ Definição do recurso de usuários """
 router = APIRouter(prefix="/v1/users")
 
-"""Definindo o CRUD"""
+#CRUD
 
 """Definindo o comando de leitura"""
 @router.get("/")
