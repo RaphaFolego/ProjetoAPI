@@ -3,6 +3,7 @@
 <h1>API para cadastro e manutenção de usuários</h1>
 
 <p>O desafio foi desenvolvido usando o framework FastAPI, do Python</p>
+<p>O framework escolhido foi o FastAPI por conta da sua agilidade na hora de subir uma API, além do fato de ser um framework mais recente quando comparado com Django e Flask, por exemplo.</p>
 
 <p>Para que a API funcione, será necessário ter, no mínimo, a versão 3.10+ do Python instalado, juntamente com o VSCode instalado.</p>
 
