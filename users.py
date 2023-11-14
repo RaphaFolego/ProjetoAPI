@@ -39,7 +39,7 @@ router = APIRouter(prefix="/v1/users")
 
 """Definindo o comando de leitura"""
 @router.get("/")
-def list_users(session: Session=Depends(get_session)):
+def list_users(session: Session=Depends(get_session) -> List[PessoaBase]):
     return session.query(Pessoa).all()
 
 """Definindo o comando de criação"""
