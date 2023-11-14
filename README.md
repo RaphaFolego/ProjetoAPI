@@ -33,7 +33,7 @@ Desafio parte do processo seletivo para vaga de Estágio no banco Itaú
 <p>Para a instalação da biblioteca, usaremos o comando pip install nome_da_biblioteca dentro do terminal do nosso ambiente virtual.</p>
 
 <p>As principais bibliotecas que usaremos são:</p>
-<li>fastapi</li>
-<li>uvicorn</li>
-<li>sqlalchemy</li>
-<li>pydantic</li>
+<li>FastAPI</li>
+<li>Uvicorn</li>
+<li>SQLAlchemy</li>
+<li>Pydantic</li>
